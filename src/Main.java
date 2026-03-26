@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    static void main() throws InterruptedException {
         int cores = Runtime.getRuntime().availableProcessors();
 
         System.out.println("Cores: " + cores);
